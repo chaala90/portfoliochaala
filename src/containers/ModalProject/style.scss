@@ -1,0 +1,63 @@
+@import '../endpoints.scss';
+.ModalEvent {
+  overflow: hidden;
+  width: 450px;
+  position: relative;
+  @include mobile-only {
+  width: 323px;}
+  &__imageContainer {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  &__title {
+    position: absolute;
+    background-color: #673d7d;
+    color: white;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 334px;
+    top: 7em;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    &Label {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    &Periode {
+      font-size: 14px;
+    }
+  }
+  margin-bottom: 32px;
+  &__descriptionContainer {
+    text-align: center;
+    margin-top: 1em;
+
+    p {
+      font-size: 14px;
+    }
+    div {
+      font-size: 16px;
+      margin: 0 0.5em;
+    }
+    button {
+      margin-top: 1em;
+      background: #ff6392;
+      color: white;
+      text-transform: uppercase;
+      font-weight: 900;
+      width: 30%;
+      height: 3em;
+      border: none;
+      border-radius: 8px;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+}

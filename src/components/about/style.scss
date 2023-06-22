@@ -1,0 +1,167 @@
+@import '../../containers//endpoints.scss';
+$transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
+#about {
+  position: relative;
+  color: #1d3557;
+  width: 90%;
+  bottom: 50em;
+  left: 3em;
+  @include tablet-only {
+    font-size: 1.6em;
+  }
+  @include mobile-only {
+    color: #fff;
+    font-weight: 100;
+    margin-left: -2em;
+    width: 95%;
+  }
+}
+h1,
+p {
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.3),
+    0 0 3px rgba(255, 255, 255, 0.3);
+  @include mobile-only {
+    font-size: 0.6em;
+  }
+}
+h1 {
+  font-size: 2em;
+  @include mobile-only {
+    font-size: 1em;
+  }
+}
+p {
+  @include mobile-only {
+    /* font-family: 'Roboto', sans-serif;*/
+  }
+}
+.container {
+  font-size: 1em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.animation {
+  height: 1.4em;
+  font-size: 2em;
+  overflow: hidden;
+  margin-left: 0.5rem;
+  @include mobile-only {
+    font-size: 0.7em;
+    padding: 0.5rem 0.75rem;
+    height: 2rem;
+  }
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height: 2.9rem;
+  margin-bottom: 2.9rem;
+  display: inline-block;
+  margin-left: 0.5em;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color: #d60040;
+}
+.second div {
+  background-color: #669bbc;
+}
+.third div {
+  background-color: #93c838;
+}
+
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -5.62rem;
+  }
+  30% {
+    margin-top: -5.62rem;
+  }
+  40% {
+    margin-top: -11.24rem;
+  }
+  60% {
+    margin-top: -11.24rem;
+  }
+  70% {
+    margin-top: -5.62rem;
+  }
+  80% {
+    margin-top: -5.62rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.aboutme {
+  margin-bottom: 1.5em !important;
+  font-size: 2em;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: 0.5s linear;
+  &:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #bbb, 0 0 15px #000;
+  }
+  @include mobile-only {
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+}
+.button {
+  background: #d60040;
+  color: white;
+  text-transform: uppercase;
+  width: 10rem;
+  height: 3em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.4s;
+
+  &:hover {
+    opacity: 0.5;
+    transform: scale(1.3);
+    box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.5);
+  }
+}
+.socialink {
+  display: flex;
+  color: white;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 1em;
+  @include mobile-only {
+    margin-right: 3em;
+    font-size: 1em;
+  }
+  li i {
+    font-size: 2em;
+    color: #e3f2fd;
+    margin-left: 0.7em;
+  }
+}
+.rowabout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include mobile-only {
+    flex-direction: column;
+  }
+}

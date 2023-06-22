@@ -1,0 +1,94 @@
+@import '../endpoints.scss';
+:root {
+  --primary-color: #010712;
+  --secondary-color: #818386;
+  --bg-color: #fcfdfd;
+  --button-color: #3b3636;
+  --h1-color: #3f444c;
+}
+/*@include tablet-only {
+  .FormContainer .Title {
+    font-size: 4em;
+    margin: 0 1em 0 0;
+  }
+}*/
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+  position: relative;
+
+  .Title {
+    color: #d60040;
+    font-weight: 900;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 5em;
+    margin: 0.7em 0.5em 0 0;
+    @include mobile-only {
+      margin: 0 auto;
+      font-size: 3em;
+    }
+    @include tablet-only {
+      font-size: 4em;
+      margin: 0 1em 0 0;
+    }
+  }
+  .Button {
+    background: #d60040;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+form {
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+input,
+textarea,
+label {
+  width: 40vw;
+  display: block;
+}
+.label {
+  color: transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--primary-color);
+}
+
+input,
+textarea {
+  color: var(--primary-color);
+  font-weight: 500;
+  background: var(--bg-color);
+  border: none;
+  border-bottom: 1px solid var(--secondary-color);
+  padding: 1em 0;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.2);
+  transition: transform 0.4s;
+  @include mobile-only {
+    width: 20em;
+  }
+}
+input:hover,
+textarea:hover,
+button {
+  opacity: 0.5;
+  transform: scale(1.1);
+  box-shadow: 0px 4px 14px rgba(255, 255, 255, 0.5);
+}

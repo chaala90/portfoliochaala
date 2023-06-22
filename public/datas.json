@@ -1,0 +1,206 @@
+{
+  "donnees": [
+    {
+      "id": 1,
+      "date": "2022-04",
+      "title": "HTML",
+      "cover": "/images/htmlo.webp"
+    },
+
+    {
+      "id": 2,
+      "date": "2022-04",
+      "title": "CSS",
+      "cover": "/images/csso.webp"
+    },
+    {
+      "id": 5,
+      "date": "2022-04",
+      "title": "Github",
+      "cover": "/images/githubo.webp"
+    },
+
+    {
+      "id": 6,
+      "date": "2022-04",
+      "title": "Javascript",
+      "cover": "/images/javascripto.webp"
+    },
+    {
+      "id": 9,
+      "date": "2022-04-29T20:28:45.744Z",
+      "title": "React",
+      "cover": "/images/reacto.webp"
+    },
+    {
+      "id": 10,
+      "date": "2022-04-29T20:28:45.744Z",
+      "title": "Redux",
+      "cover": "/images/reduxo.webp"
+    },
+
+    {
+      "id": 11,
+      "date": "2022-04-29T20:28:45.744Z",
+      "title": "Postman",
+      "cover": "/images/postmano.webp"
+    },
+    {
+      "id": 7,
+      "date": "2022-04-29T20:28:45.744Z",
+      "title": "MongodbB",
+      "cover": "/images/mongodbo.webp"
+    },
+    {
+      "id": 13,
+      "date": "2022-04-29T20:28:45.744Z",
+      "title": "yarn",
+      "cover": "/images/yarno.webp"
+    },
+    {
+      "id": 14,
+      "date": "2022-04-29T20:28:45.744Z",
+      "title": "Bootstrap",
+      "cover": "/images/bootstrapo.webp"
+    },
+    {
+      "id": 3,
+      "date": "2022-04",
+      "title": "SASS",
+      "cover": "/images/sasso.webp"
+    },
+    {
+      "id": 4,
+      "date": "2022-04",
+      "title": "Figma",
+      "cover": "/images/figmao.webp"
+    },
+    {
+      "id": 8,
+      "date": "2022-04-29T20:28:45.744Z",
+      "title": "NodeJs",
+      "cover": "/images/nodejso.webp"
+    },
+
+    {
+      "id": 12,
+      "date": "2022-04-29T20:28:45.744Z",
+      "title": "NPM",
+      "cover": "/images/npmo.webp"
+    },
+    {
+      "id": 15,
+      "date": "2022-04-29T20:28:45.744Z",
+      "title": "SEO",
+      "cover": "/images/seoo.webp"
+    }
+  ],
+  "projects": [
+    {
+      "id": 17,
+      "type": "HTML-CSS",
+      "link": "https://github.com/chaala90/p3-Booki",
+      "title": "Booki",
+      "description": "Il s'agit de réaliser un prototype d'intégration d'une page de site de reservation de logements à partir de maquettes desktop et mobile. \nDévelopper un site web avec HTML5 et CSS3 validé par W3C \nImplémenter une interface responsive \nIntégrer du contenu conformément à une maquette",
+      "cover": "/images/bookio.webp",
+      "date": "Octobre 2022"
+    },
+    {
+      "id": 18,
+      "type": "HTML-CSS",
+      "link": "https://github.com/chaala90/P4-ohmyfood",
+      "title": "Ohmyfood",
+      "description": "L'objectif est de développer un site MobileFirest qui répertorie les menus de restaurants; les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant ! :\nSimplifier le CSS avec Sass \nMettre en oeuvre des effets CSS graphiques avancés\nVersioning avec Git et Github",
+      "cover": "/images/ohmyfoodo.webp",
+      "date": "Novembre 2022"
+    },
+    {
+      "id": 19,
+      "type": "javascript",
+      "link": "https://github.com/chaala90/P6-Portfolio-architecte-sophie-bluel",
+      "title": "Sophie Bluel",
+      "description": "Il s'agit de developper la partie front-end du site: \nrecuperer des données depuis une API \ngestion de la connexion de l’utilisateur \nl'ajout et la supprission des données de l'utilisateur ",
+      "cover": "/images/sophieo.webp",
+      "date": "Janvier 2023"
+    },
+    {
+      "id": 20,
+      "type": "Planification",
+      "link": "/MenuMakerByQwenta.pdf",
+      "title": "Qwenta",
+      "description": "Il s'agit de Planifier le développement d’un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement.\nmettre en place une méthodologie de travail agile \ndévelopper un système de veille avec benchmark digital \ndéterminer les spécifications techniques du site \nrealisation de Kanban pour la planification du projet \nredaction de userStory",
+      "cover": "/images/qwentao.webp",
+      "date": "Fevrier 2023"
+    },
+    {
+      "id": 21,
+      "type": "React",
+      "link": "https://github.com/chaala90/P8-kasa",
+      "title": "Kasa",
+      "description": "Il s'agit de démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !) en utilisant en fichier JSON d'annonces de logements ",
+      "cover": "/images/Kasao.webp",
+      "date": "Mars 2023"
+    },
+    {
+      "id": 22,
+      "type": "SEO",
+      "link": "https://github.com/chaala90/p9-Ninacarducci",
+      "title": "Nina Carducci",
+      "description": "Il s'agit d'analyser l’état actuel de SEO du site fourni et identifier les points d'amélioration: Optimiser le perform nce d'un site web \nOptimiser l'accessibilité' d'un site web \nLe referencement local",
+      "cover": "/images/ninacarduccio.webp",
+      "date": "Mars 2023"
+    },
+    {
+      "id": 23,
+      "type": "Débuggage",
+      "link": "https://github.com/chaala90/-P10-Debuggez-une-application-React.JS",
+      "title": "724Events",
+      "description": "Il s'agit d'utiliser des outils pour debugger un site web afin d'assure le bon usage par les visiteurs:  \nanalyser un site web et reparer les bugs \nredaction d'un cahier de recette \nrealisation des tests unitaires et d'integration",
+      "cover": "/images/77eventso.webp",
+      "date": "Avril 2023"
+    },
+    {
+      "id": 24,
+      "type": "React-Redux",
+      "link": "https://github.com/chaala90/Oc-P11-ArgentBank-website",
+      "title": "ArgentBank",
+      "description": "Ce projet consiste à créer une application web permettant aux utilisateurs de se connecter et de gérer leurs comptes en Implémentant Redux et Gérer les accès à des routes avec une authentification requise. Il est demandé de déterminer les endpoints d'API nécessaires pour gérer certaines fonctionnalités pour les transactions.\nredaction de fichier swagger\n",
+      "cover": "/images/argentbanko.webp",
+      "date": "Mai 2023"
+    }
+  ],
+  "educations": [
+    {
+      "id": 25,
+      "date": "Juin 2023",
+      "title": " Diplome « Développeur intégrateur web ",
+      "description": ""
+    },
+    {
+      "id": 27,
+      "date": "Juin 2014",
+      "title": "Master en Systemes embarqués",
+      "description": ""
+    },
+    {
+      "id": 26,
+      "date": "Juin 2012",
+      "title": "License en informatique industrielle",
+      "description": ""
+    }
+  ],
+  "experiences": [
+    {
+      "id": 28,
+      "date": "janvier 2023 - ajourd'hui",
+      "title": "gerante de DN Engeneering ",
+      "description": "assurer la coordination efficace de l'équipe d'ingénieurs, la gestion des ressources et la prise de décisions stratégiques  pour garantir la qualité et la sécurité des projets de génie civil."
+    },
+    {
+      "id": 27,
+      "date": "octobre 2014 - novembre 2020",
+      "title": "Enseignement ",
+      "description": "utiliser une approche pédagogique diversifiée et adaptée aux besoins individuels des élèves \npreparer des leçons interactives, en utilisant des méthodes d'enseignement innovantes et des ressources pédagogiques variées \ndévelopper des compétences sociales et émotionnelles des élèves, en encourageant la coopération, l'empathie et le respect mutuel."
+    }
+  ]
+}

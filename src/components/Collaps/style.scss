@@ -1,0 +1,39 @@
+@import '../../containers//endpoints.scss';
+.bloc_descri {
+  width: 85%;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  margin: 3.5em auto;
+  color: #e3f2fd;
+  transition: transform 0.2s;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+  background-color: #282a57;
+  font-weight: 100;
+  &:hover {
+    color: #000;
+    background-color: transparent;
+    box-shadow: 0 0 5px #bbb, 0 0 10px #fff, 0 0 15px #fff;
+  }
+}
+.description p {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  @include mobile-only {
+    font-size: 0.8em;
+  }
+}
+.collapse-text,
+.description {
+  margin-left: 2em;
+}
+.titleCollapse {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1em;
+  font-size: 1.5em;
+  align-items: center;
+}
+.description {
+  padding-bottom: 1em;
+}

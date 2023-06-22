@@ -1,0 +1,68 @@
+@import '../endpoints.scss';
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Utilisez la valeur d'opacité souhaitée pour créer un effet de transparence ou flou */
+  z-index: 999; /* Assurez-vous que le fond est en dessous du modal */
+}
+.modal {
+  position: fixed;
+  width: 100%;
+  max-height: 95%;
+  top: 2em;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+  i {
+    font-size: 2em;
+  }
+  .content {
+    position: relative;
+    /*overflow: hidden;*/
+    background: white;
+    min-width: 300px;
+    min-height: 100px;
+    border-radius: 7px;
+    .close {
+      position: absolute;
+      top: 4px;
+      right: 0px;
+      border: none;
+      background-color: transparent;
+      svg {
+        position: relative;
+      }
+      cursor: pointer;
+    }
+  }
+}
+.ModalMessage--success {
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  @include mobile-only {
+  width: 314px !important;}
+  div {
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: blue;
+  }
+  p {
+    max-width: 360px;
+  }
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}

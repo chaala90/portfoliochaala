@@ -1,0 +1,152 @@
+@import '../endpoints.scss';
+.header_nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  height: 5.5em;
+  @include tablet-only {
+    font-size: 1em;
+  }
+  @include mobile-only {
+    font-size: 1em;
+  }
+}
+.title {
+  margin-top: -1.5em;
+  @include mobile-only {
+    margin-top: -1.5em;
+    width: 100%;
+  }
+}
+.title h1 {
+  font-family: 'zeyada', cursive;
+  font-size: 2em;
+  @include mobile-only {
+    font-size: 1.6em;
+  }
+}
+.title p {
+  margin: -2.5em 0px 0 2.5em;
+  @include mobile-only {
+    font-size: 1em;
+    margin: -2em 0px 0 2em;
+  }
+}
+.flexLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include mobile-only {
+    position: relative;
+    color: #fff;
+    top: -100vh;
+    flex-direction: column;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    gap: 1.5rem;
+    transition: 1s;
+  }
+}
+.nav-btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  display: none;
+  opacity: 0;
+  position: absolute;
+  font-size: 1.5em;
+  right: 0;
+  @include mobile-only {
+    .nav-btn {
+      display: inline-block;
+      opacity: 1;
+    }
+  }
+}
+.responsive_nav {
+  @include mobile-only {
+    transform: translateY(100vh);
+    position: fixed;
+    z-index: 3;
+    opacity: 0.6;
+    background: black;
+  }
+}
+.nav-close-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  @include mobile-only {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    box-shadow: none;
+    color: #fff !important;
+  }
+}
+.navbar {
+  margin-left: 1em;
+  font-weight: 900;
+  @include mobile-only {
+    margin: 0.9em 0 -0.6em 1em;
+    font-size: 1.5em;
+  }
+  &:hover {
+    font-weight: 100;
+  }
+  p {
+    cursor: pointer;
+    transition: 0.5s linear;
+    &:hover {
+      color: #bbb;
+      text-shadow: 0 0 5px #bbb, 0 0 10px #fff, 0 0 15px #fff;
+    }
+  }
+}
+.nav-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #eee;
+  display: none;
+  opacity: 0;
+  padding: 0;
+  right: 0.5em;
+  @include mobile-only {
+    display: inline-block;
+    opacity: 1;
+    color: black;
+  }
+}
+
+.slider {
+  position: relative;
+  height: 2px;
+  background-color: #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  opacity: 0; /* Par défaut, la barre de progression est masquée */
+}
+
+.navbar:hover .slider {
+  opacity: 1;
+  /* La barre de progression devient visible lors du survol du lien */
+}
+
+.slider:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: grey;
+  border-radius: 4px;
+  transition: width 0.3s ease-in-out;
+}
+.navbar:hover .slider:before {
+  width: 100%; /* La barre de progression s'étend sur toute la largeur lors du survol */
+}
